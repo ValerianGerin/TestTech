@@ -1,0 +1,371 @@
+@media (min-width: 768px) {
+  main {
+    height: 100vh;
+    background: url(../assets/background.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: 370px;
+      height: 582px;
+      background: white;
+      border-radius: 10px;
+      padding: 25px;
+      margin-right: 20px;
+
+      hr {
+        opacity: 0.5;
+      }
+      //////////////////////////////////////////////////////////////////////////////////////////////////////
+      div:first-child {
+        div {
+          position: relative;
+          height: 55px;
+          width: 321px;
+
+          span {
+            position: absolute;
+            top: 19px;
+            left: 16px;
+            letter-spacing: normal;
+          }
+          input {
+            height: 100%;
+            width: 100%;
+            padding-left: 85px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-right: 16px;
+            background-color: #f1f1f1b6;
+            font-size: 1.15rem;
+            letter-spacing: normal;
+
+            &:hover {
+              background-color: #eeeeee;
+            }
+          }
+        }
+        div:first-child {
+          input {
+            border-radius: 5px 5px 0px 0px;
+          }
+        }
+
+        div:nth-child(3) {
+          input {
+            border-radius: 0px 0px 5px 5px;
+          }
+        }
+      }
+      //////////////////////////////////////////////////////////////////////////////////////////////////////
+
+      div:nth-child(2) {
+        div {
+          position: relative;
+          height: 55px;
+          width: 321px;
+          span {
+            position: absolute;
+            top: 19px;
+            left: 16px;
+            letter-spacing: normal;
+          }
+          input {
+            height: 100%;
+            width: 100%;
+            padding-left: 85px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-right: 16px;
+            background-color: #f1f1f1b6;
+            font-size: 1.15rem;
+            letter-spacing: normal;
+            cursor: pointer;
+
+            &:hover {
+              background-color: #eeeeee;
+            }
+          }
+        }
+        div:first-child {
+          input {
+            border-radius: 5px 5px 0px 0px;
+          }
+        }
+
+        div:nth-child(3) {
+          input {
+            border-radius: 0px 0px 5px 5px;
+          }
+          span {
+            position: absolute;
+            top: 19px;
+            left: 90px;
+          }
+        }
+      }
+      //////////////////////////////////////////////////////////////////////////////////////////////////////
+      div:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 55px;
+        width: 321px;
+        background-color: #f1f1f1b6;
+        cursor: pointer;
+        p {
+          margin-top: 5px;
+          font-size: 0.85rem;
+          letter-spacing: normal;
+        }
+        &:hover {
+          background-color: #eeeeee;
+        }
+      }
+      //////////////////////////////////////////////////////////////////////////////////////////////////////
+      p:nth-child(5) {
+        background-color: white;
+        padding: 10px;
+        margin-left: 97px;
+        font-size: 0.95rem;
+        letter-spacing: normal;
+        cursor: pointer;
+        &:hover {
+          background-color: #f1f1f1b6;
+        }
+      }
+      //////////////////////////////////////////////////////////////////////////////////////////////////////
+      button {
+        width: 100%;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 1.4rem;
+        font-weight: bold;
+        letter-spacing: normal;
+        padding: 10px 0px;
+        background-color: #00a88f;
+        cursor: pointer;
+        &:hover {
+          background-color: #027765;
+        }
+      }
+    }
+  }
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+.searchResult {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: normal;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(240, 240, 240);
+    }
+  }
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+.hidden {
+  display: none;
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+.message {
+  letter-spacing: normal;
+  border: #ff9da1 solid 1px;
+  border-left: red solid 15px;
+  border-radius: 2px;
+  background-color: #ffeff0;
+  padding: 30px 15px;
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (max-width: 769px) {
+  .message {
+    letter-spacing: normal;
+    border: #ff9da1 solid 1px;
+    border-left: red solid 15px;
+    border-radius: 2px;
+    background-color: #ffeff0;
+    padding: 25px 15px;
+    margin-top: 10px;
+  }
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (max-width: 769px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 435px;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    hr {
+      opacity: 0.5;
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+    div:first-child {
+      div {
+        position: relative;
+        height: 55px;
+        width: 100%;
+
+        span {
+          position: absolute;
+          top: 19px;
+          left: 16px;
+          letter-spacing: normal;
+        }
+        input {
+          height: 100%;
+          width: 100%;
+          padding-left: 85px;
+          padding-top: 16px;
+          padding-bottom: 16px;
+          padding-right: 16px;
+          background-color: #f1f1f1b6;
+          font-size: 1.15rem;
+          letter-spacing: normal;
+
+          &:hover {
+            background-color: #eeeeee;
+          }
+        }
+      }
+      div:first-child {
+        input {
+          border-radius: 5px 5px 0px 0px;
+        }
+      }
+
+      div:nth-child(3) {
+        input {
+          border-radius: 0px 0px 5px 5px;
+        }
+      }
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+    div:nth-child(2) {
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      div {
+        position: relative;
+        height: 55px;
+        width: 100%;
+
+        span {
+          position: absolute;
+          top: 19px;
+          left: 16px;
+          letter-spacing: normal;
+        }
+        input {
+          height: 100%;
+          width: 100%;
+          padding-left: 85px;
+          padding-top: 16px;
+          padding-bottom: 16px;
+          padding-right: 16px;
+          background-color: #f1f1f1b6;
+          font-size: 1.15rem;
+          letter-spacing: normal;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #eeeeee;
+          }
+        }
+      }
+      div:first-child {
+        input {
+          border-radius: 5px 5px 0px 0px;
+        }
+      }
+
+      div:nth-child(3) {
+        input {
+          border-radius: 0px 0px 5px 5px;
+        }
+        span {
+          position: absolute;
+          top: 19px;
+          left: 20%;
+        }
+      }
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+    div:nth-child(3) {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      height: 55px;
+      width: 100%;
+      padding: 5px;
+      background-color: #f1f1f1b6;
+      cursor: pointer;
+      h4 {
+        margin-left: 2%;
+      }
+      p {
+        margin-left: 2%;
+        margin-top: 5px;
+        font-size: 0.85rem;
+        letter-spacing: normal;
+      }
+      &:hover {
+        background-color: #eeeeee;
+      }
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+    p:nth-child(5) {
+      background-color: white;
+      padding: 10px;
+      font-size: 0.95rem;
+      letter-spacing: normal;
+      cursor: pointer;
+      &:hover {
+        background-color: #f1f1f1b6;
+      }
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+    button {
+      width: 100%;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 1.4rem;
+      font-weight: bold;
+      letter-spacing: normal;
+      padding: 10px 0px;
+      background-color: #00a88f;
+      cursor: pointer;
+      &:hover {
+        background-color: #027765;
+      }
+    }
+  }
+}

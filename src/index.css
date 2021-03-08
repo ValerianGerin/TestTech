@@ -1,0 +1,21 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1.5px;
+  font-family: var(--main-font);
+}
+
+body {
+  position: relative;
+}
+
+input{
+  border: 0 transparent;
+  outline: none;
+}
